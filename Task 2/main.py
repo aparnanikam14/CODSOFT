@@ -62,7 +62,7 @@ main_window.minsize(width=WIDTH, height=HEIGHT)
 main_window.maxsize(width=WIDTH, height=HEIGHT)
 
 result_canvas = tk.Canvas(master=main_window,
-                          background="black",
+                          background="blue",
                           width=WIDTH,
                           height=150)
 result_canvas.pack(fill="both")
